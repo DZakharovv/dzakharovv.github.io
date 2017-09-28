@@ -1,0 +1,17 @@
+.row {
+	margin-top: 50px;
+}
+
+body {
+	font-family: Arial;
+}
+
+img {
+	height: 140px;
+}
+
+p {
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 400;
+}
