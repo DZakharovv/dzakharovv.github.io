@@ -1,7 +1,7 @@
 body {
 	box-sizing: border-box;
 }
-.row {
+.main {
 	width: 570px;
 	height: 570px;
 	background-color:  #ebf4f4;
