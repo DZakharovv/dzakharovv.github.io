@@ -35,7 +35,7 @@ body {
 	font-size: 12px;
 }
 
-.text-input1, .text-input2, .text-input3 {
+.field1, .field2, .field3 {
 	background-color:  #ebf4f4;
 	display: block;
 	width: 260px;
