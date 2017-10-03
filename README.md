@@ -21,7 +21,7 @@
 
 [Урок 9](https://dzakharovv.github.io/lesson_9/ "Моя готовая домашка") - Верстка при помощи bootstrap.
 
-[Урок 10](https://dzakharovv.github.io/lesson 10/ "Моя готовая домашка") - Препроцессор LESS для CSS.
+[Урок 10](https://dzakharovv.github.io/lesson_10/ "Моя готовая домашка") - Препроцессор LESS для CSS.
 
 [Урок 11](https://dzakharovv.github.io/lesson_11/ "Моя готовая домашка") - Сниппеты. (не загружен)
 
