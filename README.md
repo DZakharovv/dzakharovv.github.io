@@ -15,9 +15,9 @@
 
 [Урок 6](https://dzakharovv.github.io/lesson_6/ "Моя готовая домашка") - Позиционирование в CSS. (не загружен)
 
-[Урок 7](https://dzakharovv.github.io/lesson_7/ "Моя готовая домашка") - Верстка первого макета. (не загружен)
+[Урок 7](https://dzakharovv.github.io/lesson_7/ "Моя готовая домашка") - Верстка первого макета.
 
-[Урок 8](https://dzakharovv.github.io/lesson_8/ "Моя готовая домашка") - Ускорение верстки в разы. (не загружен)
+[Урок 8](https://dzakharovv.github.io/lesson_8/ "Моя готовая домашка") - Ускорение верстки в разы.
 
 [Урок 9](https://dzakharovv.github.io/lesson_9/ "Моя готовая домашка") - Верстка при помощи bootstrap.
 
@@ -27,7 +27,7 @@
 
 [Урок 12](https://dzakharovv.github.io/lesson_12/ "Моя готовая домашка") - Хостинг от GitHub. (не загружен)
 
-[Урок 13](https://dzakharovv.github.io/lesson_13/ "Моя готовая домашка") - Адаптивная верстка. (не загружен)
+[Урок 13](https://dzakharovv.github.io/lesson-13/ "Моя готовая домашка") - Адаптивная верстка.
 
 [Практика 1](https://dzakharovv.github.io/Practice_1/ "Моя готовая домашка") - Подготовка файлов. Верстка шапки сайта.
 
