@@ -173,4 +173,9 @@ section {
   .wrap-block {
     text-align: center;
   }
+  .main-content h1 {
+  font-size: 3rem;
+  line-height: 1;
+    width: 100%;
+}
 }
