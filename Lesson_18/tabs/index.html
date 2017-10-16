@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+    <title>Tabs</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="active enter"><a href="#home" data-toggle="tab">Вход</a></li>
+          <li class="registration"><a href="#profile" data-toggle="tab">Регистрация</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="home">
+            <form action="#" class="form">
+              <input class="form-input" type="text" placeholder="Ваше имя"></input>
+              <input class="form-input" type="text" placeholder="Пароль"></input>
+              <a class="form-link" href="#">Забыли пароль?</a>
+              <label class="checkbox">
+                <input type="checkbox"> Запомнить меня
+              </label>
+            </form>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="profile">
+            <form action="#" class="form">
+              <input class="form-input" type="text" placeholder="Ваше имя"></input>
+              <input class="form-input" type="text" placeholder="Пароль"></input>
+              <input class="form-input" type="text" placeholder="Повторите пароль"></input>
+            </form>
+          </div>
+        </div>
+
+          <div class="sign-in">
+          <a href="#">Войти</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
