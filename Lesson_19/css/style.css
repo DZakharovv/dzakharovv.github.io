@@ -1,0 +1,84 @@
+.checkbox {
+  margin: 30px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #6f6d6d;
+}
+.active {
+  font-size: 2.4rem;
+}
+.row {
+  margin: 2rem 8rem 4rem 9rem;
+}
+.container {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  width: 50%;
+  height: auto;
+  padding: 50px;
+  margin-top: 5%;
+}
+.form {
+  background-color: black;
+  border: 20px solid #03a5da;
+}
+.form-input {
+  display: block;
+  background-image: url(../img/input-bg.jpg);
+  background-size: cover;
+  border-radius: 7px;
+  border: none;
+  width: 90%;
+  height: 6rem;
+  margin: 3rem;
+  padding-left: 2rem;
+  font-size: 2.4rem;
+  color: #fff;
+}
+.form-link {
+  display: block;
+  color: red;
+  margin: 3rem;
+  font-size: 1.5rem;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #fff;
+  cursor: pointer;
+  background-color: #03a5da;
+  border: 1px solid #03a5da;
+  border-bottom-color: transparent;
+  margin-left: 1rem;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 2rem;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  margin-left: 1rem;
+  color: #000;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+.sign-in {
+  display: inline-block;
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  background-image: radial-gradient(circle 66px at center, #cf2303 0%, #7f0501 100%);
+  background-size: cover;
+  padding: 1.5rem 3.5rem;
+  margin-right: 10%;
+  text-align: center;
+}
+.sign-in a {
+  color: #fff;
+  font-size: 2.4rem;
+}
+.sign-in a:hover {
+  text-decoration: none;
+  color: #fff;
+}
