@@ -1,0 +1,46 @@
+.header {
+  padding: 30px;
+  display: block;
+  background-color: red;
+  width: 380px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  margin-left: 20px;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  font-size: 18px;
+}
+.header a {
+  color: white;
+}
+.logo,
+.info,
+.contacts {
+  margin-top: 19px;
+  vertical-align: top;
+}
+.logo-img {
+  float: left;
+}
+.logo-name {
+  display: inline-block;
+  margin-left: 5px;
+  color: black;
+  font-size: 16px;
+}
+.info {
+  padding: 19px;
+  text-align: center;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.contacts {
+  text-align: right;
+}
+.contacts .phone {
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+}
