@@ -8,14 +8,16 @@
     <meta name="author" content="">
     <link rel="icon" href="/favicon.ico">
     <title>Tabs</title>
-    <link href="css/animate.css" rel="stylesheet">
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
   </head>
 
   <body>
 
-    <div class="container">
+    <div class="container wow fadeIn" data-wow-duration="2s">
       <div class="row">
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
@@ -24,11 +26,11 @@
         </ul>
 
         <!-- Tab panes -->
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active wow fadein" data-wow-delay="2s"" id="home">
+        <div class="tab-content wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+          <div role="tabpanel" class="tab-pane active"  id="home">
             <form action="#" class="form" >
               <input class="form-input" type="text" placeholder="Ваше имя"></input>
-              <input class="form-input wow fadein" type="text" placeholder="Пароль"></input>
+              <input class="form-input" type="text" placeholder="Пароль"></input>
               <a class="form-link" href="#">Забыли пароль?</a>
               <label class="checkbox">
                 <input type="checkbox" class="wow tada"> Запомнить меня
@@ -51,11 +53,12 @@
     </div>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
-      new WOW().init();
+      var wow = new WOW;
+      wow.init();
     </script>
   </body>
 </html>
