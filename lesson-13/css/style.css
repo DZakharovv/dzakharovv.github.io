@@ -9,52 +9,59 @@ body {
 }
 .form {
 	margin: 100px 125px;
-	// padding: 20px;
 	border: 1px solid #cfdede;
 	background-color:  #ffffff;
 	text-align: center;
-	width: 320px;
-	height: 370px;
-	text-align: center;
+	width: 324px;
+	height: 374px;
 }
 .header-form {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 12px;
-	margin: -3px 29px 20px;
+	margin: -5px 29px 20px;
 	border: 1px solid #dcdcdc;
 	background-color:  #01b3b3;
-	width: 147px;
-	height: 23px;
+	width: 152px;
+	height: 28px;
 	color: #ffffff;
 }
-
+.name_input1 {
+	margin-top: 27px;
+}
 .name_input1, .name_input2, .name_input3 {
 	text-decoration: none;
 	text-align: left;
 	margin-left: 30px;
-	padding: 0px 10px;
-	font-size: 12px;
+	font-size: 14px;
 	display: block;
+	font-weight: 800;
+	color: #333333;
+	line-height: 13px;
 }
 
 .field1, .field2, .field3 {
-	background-color:  #ebf4f4;
+	background-color: #ebf4f4;
 	display: block;
-	width: 260px;
+	width: 255px;
 	height: 30px;
 	margin-left: 30px;
 }
 
+.field1 {
+	width: 245px;
+	padding: 0px 0px 0px 10px;
+}
 
 .btn {
 	margin: 25px;
 	text-transform: uppercase;
 	font-size: 16px;
-	width: 258px;
-	height: 43px;
+	width: 264px;
+	height: 48px;
 	border: 1px solid #dcdcdc;
-	background-color:  #01b3b3;
+	background-color: #01b3b3;
 	color: #ffffff;
+	font-weight: 400;
 }
 
