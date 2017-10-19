@@ -9,18 +9,19 @@ body {
 }
 .form {
 	margin: 100px 125px;
+	// padding: 20px;
 	border: 1px solid #cfdede;
 	background-color:  #ffffff;
+	text-align: center;
 	width: 320px;
 	height: 370px;
 	text-align: center;
-
 }
 .header-form {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 12px;
-	margin: -3px 29px;
+	margin: -3px 29px 20px;
 	border: 1px solid #dcdcdc;
 	background-color:  #01b3b3;
 	width: 147px;
@@ -32,7 +33,9 @@ body {
 	text-decoration: none;
 	text-align: left;
 	margin-left: 30px;
+	padding: 0px 10px;
 	font-size: 12px;
+	display: block;
 }
 
 .field1, .field2, .field3 {
@@ -40,19 +43,12 @@ body {
 	display: block;
 	width: 260px;
 	height: 30px;
-}
-.field1 {
-	margin: 15px 30px 20px 30px;
-}
-.field2 {
-	margin: 17px 30px 20px 30px;
-}
-.field3 {
-	margin: 16px 30px 35px 30px;
+	margin-left: 30px;
 }
 
+
 .btn {
-	margin: 0px 30px;
+	margin: 25px;
 	text-transform: uppercase;
 	font-size: 16px;
 	width: 258px;
