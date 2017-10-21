@@ -1,6 +1,6 @@
 body {
 	  font-family: 'Arial';
-  font-size: 12px;
+  font-size: 11px;
   color: #333333;
 }
 .container {
@@ -25,7 +25,7 @@ body {
 
 .header {
 	position: absolute;
-  padding: 5px 8px;
+  padding: 5px 7px;
   left: 30px;
   top: -5px;
   text-transform: uppercase;
@@ -39,7 +39,7 @@ body {
   font-weight: 900;
 }
 .email {
-	margin-top: 45px;
+	margin-top: 55px;
 	margin-bottom: 10px;
 }
 
