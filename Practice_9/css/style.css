@@ -367,8 +367,8 @@ section {
   background-color: #f5f5f5;
 }
 .all-inclusive .section-header_active h2 {
-			color: @icons-color;
-		}
+  color: #46b814;
+}
 .all-inclusive .media {
   min-height: 9rem;
 }
