@@ -1,0 +1,643 @@
+@font-face {
+  font-family: 'Helvetica_Light';
+  src: url('../fonts/HelveticaNeueCyr-Light.eot');
+  src: url('../fonts/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Light.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Light.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Light.ttf') format('truetype'), url('../fonts/HelveticaNeueCyr-Light.svg#HelveticaNeueCyr-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica_Black';
+  src: url('../fonts/HelveticaNeueCyr-Black.eot');
+  src: url('../fonts/HelveticaNeueCyr-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Black.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Black.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Black.ttf') format('truetype'), url('../fonts/HelveticaNeueCyr-Black.svg#HelveticaNeueCyr-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica_Bold';
+  src: url('../fonts/HelveticaNeueCyr-Bold.eot');
+  src: url('../fonts/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Bold.ttf') format('truetype'), url('../fonts/HelveticaNeueCyr-Bold.svg#HelveticaNeueCyr-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica_Medium';
+  src: url('../fonts/HelveticaNeueCyr-Medium.eot');
+  src: url('../fonts/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Medium.ttf') format('truetype'), url('../fonts/HelveticaNeueCyr-Medium.svg#HelveticaNeueCyr-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica_Roman';
+  src: url('../fonts/HelveticaNeueCyr-Roman.eot');
+  src: url('../fonts/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype'), url('../fonts/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.button {
+  display: block;
+  background-color: #94ca2d;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 1.5rem;
+  font-family: 'Helvetica_Bold', sans-serif;
+  -webkit-box-shadow: 0px 4px 0px 0px #76ae0c;
+          box-shadow: 0px 4px 0px 0px #76ae0c;
+  text-shadow: 0px 1px 2px #578f22;
+  color: #ffffff;
+}
+/* Главный экран */
+.main {
+  background: url(../img/main/main-bg.png) center no-repeat;
+  background-size: cover;
+}
+.main .header-bg {
+  background: url(../img/main/header-bg.png) center no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0);
+  min-height: 5rem;
+}
+.main .header-left {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.main .header-right {
+  padding-top: 1rem;
+  line-height: 2rem;
+  text-align: center;
+}
+.main .header-right .phone {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: 'Helvetica_Bold', sans-serif;
+}
+.main .header-right-btn {
+  display: inline-block;
+  color: #94ca2d;
+  font-size: 1.9rem;
+  font-family: 'Helvetica_Medium', sans-serif;
+}
+.main-content {
+  color: #ffffff;
+}
+.main-content-vrbox {
+  margin-top: 5rem;
+  margin-left: -2rem;
+}
+.main-content h1 {
+  margin-top: 10rem;
+  font-size: 3rem;
+  text-align: left;
+  font-family: 'Helvetica_Bold', sans-serif;
+  text-shadow: 1px 3px 0px #272b25;
+}
+.main-content p {
+  font-size: 2.5rem;
+  font-family: 'Helvetica_Bold', sans-serif;
+}
+.main-content-btn {
+  margin-top: 5rem;
+  font-family: 'Helvetica_Bold', sans-serif;
+  text-shadow: 0px 1px 2px #578f22;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 1.8rem;
+}
+.main-content-dino {
+  position: relative;
+  -webkit-transform: translateX(-10%) translateY(50%);
+          transform: translateX(-10%) translateY(50%);
+  margin-left: -10rem;
+}
+/* Что такое VR BOX 2 */
+.about {
+  background: #ffffff url(../img/about/about-bg.png) center no-repeat;
+  background-size: cover;
+}
+.about-box {
+  padding: 0;
+}
+.about-block {
+  margin-top: 3rem;
+  font-family: 'Helvetica_Roman', sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+}
+.about-equipment {
+  font-family: 'Helvetica_Roman', sans-serif;
+  font-size: 1.7rem;
+  display: inline-block;
+  margin-left: -1.5rem;
+}
+.about-equipment h3 {
+  font-family: 'Helvetica_Medium', sans-serif;
+  text-align: left;
+}
+.about-equipment ul {
+  padding: 0;
+  min-height: 15rem;
+}
+.about-equipment li {
+  list-style: none;
+}
+.about-equipment-price {
+  font-family: 'Helvetica_Medium', sans-serif;
+  font-size: 2rem;
+}
+.about-equipment span {
+  color: #b61919;
+  font-size: 2.5rem;
+}
+.about .part {
+  text-align: left;
+}
+.about .section-header {
+  margin-top: 10rem;
+  font-family: 'Helvetica_Black', sans-serif;
+  font-size: 3.5rem;
+}
+.about-btn {
+  margin-top: 30rem;
+  margin-bottom: 10rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 1.8rem;
+}
+.about img {
+  margin-left: -10rem;
+}
+/* Способности */
+.ability h3 {
+  font-size: 2.2rem;
+  font-family: 'Helvetica_Medium', sans-serif;
+}
+.ability p {
+  font-family: 'Helvetica_Roman', sans-serif;
+  font-size: 1.7rem;
+}
+.ability-one {
+  padding-top: 10rem;
+}
+.ability-one-header {
+  margin-top: 15rem;
+}
+.ability-one-video {
+  display: inline-block;
+  -webkit-transform: translateY(450%);
+          transform: translateY(450%);
+  margin-left: -6rem;
+}
+.ability-two {
+  margin-top: -7rem;
+  margin-bottom: 5rem;
+}
+.ability-two-earth {
+  display: inline-block;
+  -webkit-transform: translateX(-20%) translateY(50%);
+          transform: translateX(-20%) translateY(50%);
+  margin-left: -5rem;
+}
+.ability-two-header {
+  margin-top: -2.5rem;
+}
+.ability-three {
+  margin-left: -7rem;
+  margin-bottom: 5rem;
+}
+.ability-three-ball {
+  display: inline-block;
+  -webkit-transform: translateX(-20%) translateY(150%);
+          transform: translateX(-20%) translateY(150%);
+  margin-left: -5rem;
+}
+.ability-four-gamepad {
+  display: inline-block;
+  -webkit-transform: translateX(-20%) translateY(170%);
+          transform: translateX(-20%) translateY(170%);
+  margin-left: -5rem;
+}
+/* Заказ */
+.bid {
+  background: url(../img/bid/bid-bg.png) center no-repeat;
+  background-size: cover;
+  min-height: 42rem;
+}
+.bid-header {
+  margin-top: 8rem;
+  font-family: 'Helvetica_Black', sans-serif;
+  font-size: 3.5rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.bid-box-text {
+  display: inline-block;
+  width: 51rem;
+  height: 5.8rem;
+  background: url(../img/bid/text-bg.png) center no-repeat;
+  padding: 0.5rem 2rem;
+  font-family: 'Helvetica_Medium', sans-serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+.bid-service {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2rem;
+  color: #ffffff;
+}
+.bid-service-text {
+  float: right;
+  margin-left: 1rem;
+  margin-right: 4rem;
+}
+.bid-form {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 39rem;
+  height: 37rem;
+  border: 4px solid #21a3af;
+  border-radius: 3px;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  background-color: #000000;
+}
+.bid-form-header {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-family: 'Helvetica_Medium', sans-serif;
+  font-size: 2.2rem;
+  color: #ffffff;
+  text-align: center;
+}
+.bid-form-input {
+  background-color: #000000;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-family: 'Helvetica_Roman', sans-serif;
+  font-size: 1.8rem;
+}
+.bid-form-button {
+  width: 100%;
+  font-family: 'Helvetica_Bold', sans-serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-shadow: 0px 1px 2px #578f22;
+}
+.bid-form small {
+  display: block;
+  margin-top: 1rem;
+  font-family: 'Helvetica_Roman', sans-serif;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-align: center;
+}
+/* Как это работает */
+.work {
+  background: url(../img/work/work-bg.png) center no-repeat;
+}
+.work img {
+  display: block;
+}
+.work-header {
+  margin-top: 10rem;
+  text-align: center;
+  font-family: 'Helvetica_Black', sans-serif;
+  font-size: 3.5rem;
+}
+.work-box {
+  margin-bottom: 20rem;
+}
+.work-box-text {
+  display: block;
+  margin-left: -5rem;
+  text-align: center;
+  font-family: 'Helvetica_Roman', sans-serif;
+  font-size: 1.7rem;
+}
+.work-box-number {
+  position: relative;
+  -webkit-transform: translateX(100%) translateY(-20%);
+          transform: translateX(100%) translateY(-20%);
+  z-index: 1;
+}
+.work-box-one {
+  margin-top: 1rem;
+}
+.work-box-two {
+  margin-top: 5rem;
+}
+.work-box-four {
+  margin-top: 1rem;
+}
+/* Совместимость */
+.compatibility-header {
+  margin-bottom: 5rem;
+  font-family: 'Helvetica_Black', sans-serif;
+  font-size: 3.5rem;
+}
+.compatibility .phone-block p {
+  text-align: center;
+  font-family: 'Helvetica_Medium', sans-serif;
+  font-size: 2rem;
+}
+.compatibility .phone-block-windows {
+  display: inline-block;
+  margin-right: 0;
+}
+.compatibility .phone-block-ios {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.compatibility .phone-block-android {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.compatibility .vr-block {
+  margin-top: -3rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.compatibility .vr-block-text {
+  margin-left: 5rem;
+  text-align: left;
+  font-family: 'Helvetica_Medium', sans-serif;
+  font-size: 2.2rem;
+}
+/* Видео */
+.video {
+  background: url(../img/video.png) center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.video-header {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  font-family: 'Helvetica_Black', sans-serif;
+  font-size: 3.5rem;
+  color: #ffffff;
+}
+.video a {
+  display: block;
+  font-family: 'Helvetica_Medium', sans-serif;
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10rem;
+}
+/* Более 100 игр и приложений */
+.games {
+  background-color: #fcfcf6;
+}
+.games-icons {
+  text-align: center;
+  position: relative;
+  -webkit-transform: translateX(300%) translateY(0%);
+          transform: translateX(300%) translateY(0%);
+  margin-bottom: 5rem;
+}
+.games-header {
+  text-align: center;
+  margin-top: 10rem;
+  font-family: 'Helvetica_Black', sans-serif;
+  font-size: 3.5rem;
+}
+.games-image-one {
+  position: relative;
+  -webkit-transform: translateX(-25%) translateY(-10%);
+          transform: translateX(-25%) translateY(-10%);
+}
+.games-image-two {
+  padding-top: 3rem;
+  position: relative;
+  -webkit-transform: translateX(-25%) translateY(-10%);
+          transform: translateX(-25%) translateY(-10%);
+  margin-bottom: -2rem;
+}
+.games-image-three {
+  position: relative;
+  -webkit-transform: translateX(-25%) translateY(-10%);
+          transform: translateX(-25%) translateY(-10%);
+}
+.games h4 {
+  font-family: 'Helvetica_Medium', sans-serif;
+  font-size: 2.2rem;
+}
+.games p {
+  font-family: 'Helvetica_Roman', sans-serif;
+  font-size: 1.7rem;
+}
+.games-btn {
+  margin: 5rem auto;
+  text-align: center;
+  font-size: 1.8rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+/* Отзывы клиентов */
+.review {
+  background-color: #f8f8f0;
+}
+.review-border {
+  display: block;
+  margin: 1rem auto;
+  margin-bottom: 10rem;
+}
+.review-header {
+  text-align: center;
+  font-family: 'Helvetica_Black', sans-serif;
+  font-size: 3.5rem;
+}
+.review-block {
+  margin: 0 -1rem 1rem -1rem;
+  padding: 2rem;
+  border: 1px solid #3eb7b7;
+  background-color: #ffffff;
+}
+.review-block-header {
+  display: inline-block;
+  margin-left: 3rem;
+  font-family: 'Helvetica_Medium', sans-serif;
+  font-size: 1.8rem;
+}
+.review-block p {
+  line-height: 1.4;
+  font-family: 'Helvetica_Roman', sans-serif;
+  font-size: 1.7rem;
+  text-align: justify;
+  color: #000;
+}
+.review-block img {
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+.review-block-one {
+  margin-bottom: 10rem;
+}
+.working {
+  background-color: #fcfcf6;
+}
+.working-header {
+  margin-top: 10rem;
+  text-align: center;
+  font-family: 'Helvetica_Black', sans-serif;
+  font-size: 3.5rem;
+}
+.working-box {
+  text-align: center;
+}
+.working-box p {
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+  font-family: 'Helvetica_Roman', sans-serif;
+  font-size: 1.7rem;
+}
+.bid-2 {
+  background: url(../img/bid-2-bg.png) center no-repeat;
+}
+.questions-header {
+  margin: 3rem auto;
+  text-align: center;
+}
+.questions-header h2 {
+  font-family: 'Helvetica_Black', sans-serif;
+  font-size: 3.5rem;
+}
+.questions-header a {
+  font-family: 'Helvetica_Medium', sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  /* Убираем подчеркивание */
+  border-bottom: 1px dashed #000080;
+  /* Добавляем свою линию */
+  color: #040605;
+}
+.footer {
+  background-color: #000000;
+  min-height: 4rem;
+}
+.footer-left {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.footer-right {
+  padding-top: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+.footer-right .phone {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: 'Helvetica_Bold', sans-serif;
+}
+.footer-right-btn {
+  display: inline-block;
+  color: #94ca2d;
+  font-size: 1.9rem;
+  font-family: 'Helvetica_Medium', sans-serif;
+}
+.popup {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-call {
+  display: none;
+}
+.popup-order {
+  display: none;
+}
+.popup-form {
+  margin: 0;
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+.popup-form-text {
+  margin-top: 2rem;
+  font-family: 'Helvetica_Roman', sans-serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.popup-close {
+  position: fixed;
+  top: -1rem;
+  right: -0.3rem;
+  text-align: center;
+  border-radius: 50%;
+  border: 4px solid #21a3af;
+  background-color: #131313;
+  width: 21px;
+  height: 21px;
+  font-size: 3rem;
+}
+.popup-content {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #ffffff;
+  text-align: center;
+  font-size: 2rem;
+}
+.popup-content-header {
+  width: 100%;
+  font-family: 'Helvetica_Medium', sans-serif;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.popup-form-btn {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+  }
+  .main h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+    width: 100%;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
+  .scheme {
+    background: none;
+    text-align: center;
+  }
+  .scheme-block {
+    min-height: 20rem;
+  }
+}
